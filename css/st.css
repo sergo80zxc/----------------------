@@ -3,11 +3,12 @@
 
  #box {          
   display: flex;                 /*Задаем контейнеру "box" свойство "flex" */
-  flex-direction: column;        /*Вертикальное расположение флекс элементов (в столбик)*/ 
+  flex-direction: row;           /*флекс элементы в строку*/ 
+  flex-wrap: nowrap;
 }
 .name {                          /*наши дивы с размерами и цветом для наглядности*/          
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   border: solid red 1px;
   background-color: aqua;
 }
