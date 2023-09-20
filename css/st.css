@@ -1,22 +1,15 @@
-/* Изменим способ расчета браузером размеров элементов*/
-/* Теперь в ширину и высоту входит сам контент, */
-/* граница (border) и внутрение поля (padding)*/
-
-* {                           /*все элементы*/
-    box-sizing: border-box;   /*Размер = контент + padding + border*/
-  }
-body {
-    background-color: antiquewhite;
-}  
-
 
  /*---------------------------------------------------------*/
 
- .box {
-  display: flex;
+ #box {          
+  display: flex;   /*Задаем контейнеру "box" свойство "flex" */    
 }
 
 
-
-
+.name {            /*наши дивы с размерами и цветом для наглядности*/          
+  width: 200px;
+  height: 200px;
+  border: solid red 1px;
+  background-color: aqua;
+}
 

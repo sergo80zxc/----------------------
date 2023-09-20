@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="./css/st.css">
 </head>
 <body>
-    <div class="box">
-        <div>One</div>
-        <div>Two</div>
-        <div>Three
-            <br>has
-            <br>extra
-            <br>text
+    <div id="box">                                 <!--flex контейнер родитель-->
+        <div class="name">1 флекс элемент</div>    <!--flex элементы (Только прямые потомки родителя "box")-->
+        <div class="name">2 флекс элемент</div>    <!--flex элементы (Только прямые потомки родителя "box")-->
+        <div class="name">3 флекс элемент          <!--flex элементы (Только прямые потомки родителя "box")-->
+            <div>4 не флекс</div>                  <!--Уже не flex элементы (НЕ прямые потомки родителя "box")-->
+            <div>5 не флекс</div>                  <!--Уже не flex элементы (НЕ прямые потомки родителя "box")-->
+            <div>6 не флекс</div>                  <!--Уже не flex элементы (НЕ прямые потомки родителя "box")-->
         </div>
       </div>
 </body>
