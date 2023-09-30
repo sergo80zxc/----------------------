@@ -1,16 +1,62 @@
 
- /*---------------------------------------------------------*/
- #box {          
-  display: flex;           /*Задаем контейнеру "box" свойство "flex" */
-  flex-direction: row;     /*флекс элементы в строку*/ 
-  flex-wrap: nowrap;       /*При сжатии страницы флекс элементы сжимаются но не перескакивают на другую строку*/ 
+.flex {
+  display: flex;
 }
-.name {                    /*наши дивы с размерами и цветом для наглядности*/          
-  border: solid red 1px;
-  background-color: aqua;
-  width: 200px;              /*Задаем ширину обычным способом*/        
-  flex-basis: 100px;         /*задаем ширину флекс элементам так как элементы в строку (row)*/
+
+
+#container {
+
+  background-color: bisque;
 }
+
+header {
+  height: 100px;
+  background-color: #daba95;
+}
+
+
+
+
+
+
+header ul {
+  display: flex;
+  border: solid black 1px;
+  height: 100px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+header li {
+  border: solid #bd388a 1px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+
+
+
+
+
+
+header a {
+  display: block;
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
